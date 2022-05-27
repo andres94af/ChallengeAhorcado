@@ -100,7 +100,7 @@ function verificarLetra() {
 
 //funcion de agregar palabra y jugar
 function agregarPalabra(){
-  var nuevaPalabra = prompt("Ingresa Nueva palabra")
+  var nuevaPalabra = prompt("Ingrese palabra sin tildes.")
   btnDesistir.setAttribute("id", "btn-desistir")
   btnNuevo.setAttribute("id", "btn-invisible")
   btnAgregar.setAttribute("id", "btn-invisible")
