@@ -1,0 +1,88 @@
+@font-face {
+  font-family: crayon;
+  src: url("../crayon.ttf");
+}
+
+body{
+  background-image: url("../imagenes/background-pizzarra.jpg");
+  width: auto;
+  height: auto;
+  color: rgb(238, 239, 205);
+  font-family: crayon;
+}
+
+.titulo{
+  margin: 2px;
+  text-align: center;
+}
+
+.imagen{
+  text-align: center;
+  width: auto;
+  margin: 5px
+}
+#imagen{
+  border-radius: 10px;
+  max-width: 300px;
+  width: 35%;
+  border-style: groove
+}
+
+.espacio, .errado{
+  text-align: center;
+  padding: 10;
+  margin: 10px;
+}
+.espacio-letra{
+  font-size: 2.1rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.5rem;
+  border-bottom: 2px solid rgb(238, 239, 205);
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.espacio-letra-oculta{
+  color: transparent;
+  font-size: 2.1rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.5rem;
+  border-bottom: 2px solid rgb(238, 239, 205);
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.espacio-errado{
+  font-size: 1.3rem;
+  margin: 1rem;
+}
+
+.botones{
+  text-align: center;
+}
+#btn-nuevo, #btn-desistir, #btn-agregar{
+  font-size: 1rem;
+  font-family: crayon;
+  margin: 5px;
+  color: rgb(233, 238, 208);
+  border-radius: 10px;
+  background-color: rgb(95, 91, 91);
+  width: 170px;
+  height: 2rem;
+}
+#btn-nuevo:hover , #btn-desistir:hover, #btn-agregar:hover{
+  transform: scale(1.05);
+}
+#btn-nuevo:active, #btn-desistir:active, #btn-agregar:active{
+  background: rgb(217, 217, 217);
+  color: rgb(101, 101, 101);
+  border: gray;
+}
+#btn-invisible{
+  display: none;
+}
+
+.pie{
+  text-align: center;
+  margin-top: 15px;
+}
